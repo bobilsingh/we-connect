@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We-Connect</title>
+    <script type="text/javascript">
+      function CreateLink() {
+        var str = '';
+        str += '<a href="/'+document.getElementById('TBox').value+'">Click to enter room</a>';
+        document.getElementById('tlink').innerHTML = str;
+      }
+      </script>
+      <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+  <div class="central">
+  <div class="login"><input type="text" id="TBox" value="" size="30">
+  <br>
+  <br>
+    <button class = "btn" onclick="CreateLink()">Enter room id</button>
+  </div>
+  <div class="enter" id="lol">
+    <div id="tlink"></div>
+  </div>
+  
+</div>
+</body>
+</html>

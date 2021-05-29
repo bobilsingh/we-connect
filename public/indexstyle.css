@@ -1,0 +1,64 @@
+body{
+	background-color: black;
+	margin-top: 40px;
+	
+}
+.central{
+    min-height: 100vh;
+    color: green;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.login{
+	 position: absolute;
+	/* left: 550px;
+    top : 250px; */    
+}
+.login input{
+ 	background-color: #6e6d6d;
+	text-align: center;
+	border : 3px solid purple;
+	height: 20px;
+}
+.btn{
+	border: none;
+  	color: white;
+  	padding: 14px 28px; 
+  	background-color: #0d24f4;
+  	position: absolute;
+  	left: 50px;
+  	font-size: 15px;
+}
+.btn:hover
+{
+	background-color: #6e6d6d;
+}
+a{
+	text-decoration: none;
+	font-size: 3rem;
+	text-align: center;
+	color: #faf3dd;
+	/* position: absolute;
+	left: 585px;
+    top: 360px; */
+    padding: 50px;
+    background: blue;
+}
+ a:hover{
+	color: yellowgreen;
+} 
+.enter{
+    color:#e91e63;
+  font-size:140%;
+  /* padding:0 20px 0  0; */
+  animation: blinker 3s linear infinite; 
+}
+ @keyframes blinker{
+    50% { opacity: 1; }
+} 
+#lol{
+    background: blue;
+}
